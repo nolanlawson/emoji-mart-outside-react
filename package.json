@@ -4,8 +4,10 @@
   "description": "Demo of using emoji-mart outside of React",
   "main": "src.js",
   "scripts": {
-    "build": "webpack --mode production --config webpack.config.js",
-    "start": "http-server -p 8080"
+    "build": "npm run build-prod",
+    "build-prod": "webpack --mode production --config webpack.config.js",
+    "build-dev": "webpack --mode development --config webpack.config.js",
+    "start": "npm run build-dev&&http-server -p 8080"
   },
   "author": "Nolan Lawson <nolan@nolanlawson.com>",
   "license": "ISC",
