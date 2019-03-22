@@ -14,9 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "emoji-mart": "^2.10.0",
-    "http-server": "^0.11.1",
     "preact": "^10.0.0-alpha.2",
-    "remount": "^0.9.5",
+    "remount": "^0.9.5"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
